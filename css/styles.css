@@ -1,0 +1,84 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  border-bottom: solid #FFE194;
+  font-weight: bolder;
+}
+
+body{
+  background-color: #E8F6EF;
+  font-family: 'Source Code Pro', monospace;
+
+}
+
+/*Header*/
+header{
+
+  background-color: #B8DFD8;
+  padding: 18px;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
+
+nav{
+
+  display: inline-block;
+  padding: 1px;
+}
+
+.logo{
+
+  display: inline-block;
+  position: absolute;
+  right: 20px;
+  top: 12px;
+  }
+
+nav li{
+  display: inline-block;
+  margin-right: 20px;
+}
+
+
+/*footer*/
+
+footer{
+  width: 100%;
+  background-color: #B8DFD8;
+  
+}
+
+/*main*/
+main{
+  height: 100vh;
+  border:  solid red;
+  margin-top: 14vh;
+
+}
+
+p{
+  border:  solid blue;
+  font-size: 0.8em;
+}
+
+/*Media Queries*/
+
+@media only screen and (min-width: 992px){
+
+	body{
+		background-color: #4C4C6D;
+	}
+
+
+}
